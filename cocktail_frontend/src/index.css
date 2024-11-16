@@ -1,0 +1,30 @@
+@import "@fontsource/varela-round";
+
+html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  line-height: 21px;
+}
+body:after {
+  content: "";
+  position: absolute;
+  
+}
+
+#root {
+  position: relative;
+  min-height: 100vh;
+}
+
+input {
+  outline: 0;
+}
